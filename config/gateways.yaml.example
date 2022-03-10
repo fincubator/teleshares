@@ -1,0 +1,23 @@
+# Copy this file as `gateways.yaml' in same directory (`config/`) and fill it with your params
+
+RuDEX:
+  name: RUDEX
+  url: https://market.rudex.org/
+  telegram: t.me/BitSharesDEX_RU
+  working: True
+  country: Russia
+  kyc: No
+  since: 2017-01-04
+
+  updated: 2020-01-26
+
+GDex:
+  name: GDEX
+  url: https://www.gdex.io/
+  telegram: t.me/GDEXer
+  active: True
+  country: China
+  kyc: Yes
+  since: 2017-11-27
+
+  updated: 2020-04-27

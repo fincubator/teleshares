@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+sqlalchemy = "*"
+alembic = "*"
+psycopg2 = "*"
+aiopg = "*"
+aiohttp = "*"
+aiogram = "*"
+aiohttp-socks = "*"
+aioredis = "*"
+bitshares = "*"
+pyyaml = "*"
+terminaltables = "*"
+pytest = "*"
+pytest-asyncio = "*"
+marshmallow = "*"
+
+[requires]
+python_version = "3.7"

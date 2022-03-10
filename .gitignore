@@ -1,0 +1,10 @@
+*__pycache__/
+.pytest_cache
+*.pyc
+.idea
+venv/
+
+*.yaml
+alembic.ini
+
+src/tg/handlers/admin_handlers.py

@@ -1,0 +1,38 @@
+# Copy this file as `config.yaml' in same directory (`config/`) and fill it with your params
+
+telegram:
+  # Root telegram user can receive debug messages, operate in admin mode and use wallet plugin
+  # It's ID of token owner (and bot runner). Easy way to get it from t.me/userinfobot
+  root_id: 000000000
+
+  # Get it from t.me/botfather
+  token: 123456789:aAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAA
+
+  # Proxy against telegram restrict and censorship in countries like Russia or Iran.
+  # For example, using tor proxy:
+  # proxy: socks5://127.0.0.1:9050
+
+postgres:
+  host: postgres
+  port: 5432
+  user: postgres
+  password: postgres
+  database: postgres
+
+bitshares:
+  nodes:
+    - wss://btsfullnode.bangzi.info/ws
+    - wss://btsws.roelandp.nl/ws
+    - wss://eu.nodes.bitshares.ws
+
+plugins:
+  # Don't forget to restart bot after turning on/off any plugins
+  wallet:   True  # If enable `True` you need wallet.yaml file in config/ dir
+  gateways: True   # If enable `True` you need gateways.yaml file in config/ dir
+  notifier: True
+
+# Please, support the teleshares development
+donate_addresses:
+  BitShares: teleshares2020
+  Bitcoin: 1EWGKaAdof35pdjBnQW9xh7dwRVJkA8vUR
+  Monero: 46TTXycFY9Q5QmVGT83Lij2BKL4wPqEvgbdX4xkGdeJUEctGvbjmk9jNHD21PpswVtKPhRH46ZnKH64wiGqzzZB9ENj6E5x
